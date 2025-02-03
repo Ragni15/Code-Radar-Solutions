@@ -8,9 +8,9 @@ int main(){
     if (a<b){
         printf("%d",b);
     }
-    if (a=b){
-        printf("%d",a,b);
-    }
+    // if (a=b){
+    //     printf("%d",a,b);
+    // }
     return 0;
     
 }
