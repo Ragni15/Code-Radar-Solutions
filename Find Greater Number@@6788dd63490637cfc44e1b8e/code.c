@@ -5,12 +5,8 @@ int main(){
     if (a>b){
         printf("%d",a);
     }
-    if (a<b){
+    else{
         printf("%d",b);
-    }
-    // if (a=b){
-    //     printf("%d",a,b);
-    // }
     return 0;
     
 }
