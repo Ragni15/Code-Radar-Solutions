@@ -9,7 +9,7 @@ int main(){
         printf("%d",b);
     }
     if (a=b){
-        printf("%d",a);
+        printf("%d",a,b);
     }
     return 0;
     
