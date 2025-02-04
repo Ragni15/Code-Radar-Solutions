@@ -7,10 +7,10 @@ int a(){
     }
     else{
         if (a%b==0){
-            printf("Yes",a,b);
+            printf("Yes");
         }
         else{
-            printf("No",a,b);
+            printf("No");
         }
     }
     return 0;
