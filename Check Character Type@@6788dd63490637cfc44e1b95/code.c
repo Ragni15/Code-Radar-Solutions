@@ -8,5 +8,7 @@ int main(){
     else if ((!(a=='a','e','i','o','u')) && (a<'a'&& a>='z')){
         printf("Consonant");
     }
-    
+    else if (a=='@','$','#','&'){
+        printf("Special Character");
+    }
 }
