@@ -2,11 +2,15 @@
 int a(){
     int a,b;
     scanf("%d%d",&a,&b);
-    if (b!=0 && a%b==0){
-        printf("Yes",a,b);
+    if (b==0){
+        printf("Divisor is not allowed with 0");
     }
     else{
-        printf("No",a,b);
-    }
+        if (a%b==0){
+        printf("Yes",a,b);
+        }
+        else{
+            printf("No",a,b);
+        }
     return 0;
 }
