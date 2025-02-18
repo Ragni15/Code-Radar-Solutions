@@ -10,6 +10,6 @@ int main(){
         break;
     }
     if (a==0) printf("Prime\n");
-    else printf("Composite");
+    
     return 0;
 }
