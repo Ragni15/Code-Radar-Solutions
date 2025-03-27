@@ -29,3 +29,11 @@ int incrementToPrimeDigits(int N) {
     }
     return result;
 }
+int main() {
+    int N;
+    scanf("%d", &N);
+    int result = incrementToPrimeDigits(N);
+    printf("%d\n", result);
+    return 0;
+}
+
