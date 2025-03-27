@@ -26,15 +26,3 @@ int digitRightShift(int N) {
     return shiftedNumber;
 }
 
-int main() {
-    int N;
-    scanf("%d", &N);
-
-    // Call the digitRightShift function
-    int shiftedNumber = digitRightShift(N);
-
-    // Output the shifted number
-    printf("%d\n", shiftedNumber);
-
-    return 0;
-}
