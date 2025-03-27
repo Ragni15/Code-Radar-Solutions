@@ -1,5 +1,5 @@
 void deflateBalloons(int air[], int n) {
-    int rounds = 0; hghgttvb
+    int rounds = 0; 
     while (1) {
         int count = 0;
         for (int i = 0; i < n; i++) {
