@@ -8,14 +8,3 @@ void findUniquePairs(int arr[], int n, int target) {
         }
     }
 }
-int main() {
-    int n, target;
-    scanf("%d", &n);
-    int arr[n];
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-    scanf("%d", &target);
-    findUniquePairs(arr, n, target);
-    return 0;
-}
