@@ -23,15 +23,3 @@ void factorialRange(int start, int end) {
         printf("%lld\n", factorial(i));
     }
 }
-
-int main() {
-    int start, end;
-
-    // Read the start and end of the range
-    scanf("%d %d", &start, &end);
-
-    // Call the factorialRange function
-    factorialRange(start, end);
-
-    return 0;
-}
