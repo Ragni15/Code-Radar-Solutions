@@ -1,17 +1,12 @@
-// Your code here...
 void deflateBalloons(int air[], int n) {
     int rounds = 0;
 
     while (1) {
-        // Find the minimum air level greater than 0
-        int minAir = __INT_MAX__;
         int count = 0;
 
+        // Count balloons with air
         for (int i = 0; i < n; i++) {
             if (air[i] > 0) {
-                if (air[i] < minAir) {
-                    minAir = air[i];
-                }
                 count++;
             }
         }
@@ -23,6 +18,14 @@ void deflateBalloons(int air[], int n) {
 
         // Print count of balloons with air
         printf("%d\n", count);
+
+        // Find the minimum air level greater than 0
+        int minAir = __INT_MAX__;
+        for (int i = 0; i < n; i++) {
+            if (air[i] > 0 && air[i] < minAir) {
+                minAir = air[i];
+            }
+        }
 
         // Deflate all balloons by the minimum air level
         for (int i = 0; i < n; i++) {
