@@ -25,7 +25,7 @@ int incrementToPrimeDigits(int N) {
         int primeDigit = nextPrimeDigit(digit); 
         result += primeDigit * multiplier;
         multiplier *= 10; 
-        N /= 10; /
+        N /= 10; 
     }
     return result;
 }
