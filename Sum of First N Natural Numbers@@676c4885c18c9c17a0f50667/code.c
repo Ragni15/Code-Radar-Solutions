@@ -2,7 +2,7 @@
 int main(){
     int i,n;
     scanf("%d",&n);
-    for(i=1;i<=n;i = n*(n+1)){
+    for(i=1;i = n*(n+1);i++){
         printf("%d",i);
     }
     return 0;
