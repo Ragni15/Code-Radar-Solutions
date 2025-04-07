@@ -20,7 +20,7 @@ int main() {
     }
     int min, max;
     findMinMax(arr, n, &min, &max);
-    printf("%d", min);
+    printf("%d ", min);
     printf("%d", max);
     return 0;
 }
