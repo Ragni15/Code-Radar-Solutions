@@ -14,14 +14,12 @@ void rotateArray(int arr[], int n, int k) {
 }
 int main() {
     int n, k;
-    printf(" ");
     scanf("%d", &n);
     int arr[n];
     printf(" ");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    printf(" ");
     scanf("%d", &k);
     rotateArray(arr, n, k);
     for (int i = 0; i < n; i++) {
